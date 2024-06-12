@@ -4,6 +4,7 @@ body{
     background-color: #F5F5F5;
 }
 .div1 , .div2 ,.div3 ,.div4{
+   
     width: 300px;
     border-radius: 15px;
     background-color: #fff;
@@ -40,8 +41,9 @@ h2{
     font-weight: 800;
 }
 .main{
-    margin-top: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+   
+    margin: 40px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
